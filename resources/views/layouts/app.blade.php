@@ -19,9 +19,9 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<body>
+<body class="bg-light">
     <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
             <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
             </a>
@@ -35,7 +35,7 @@
                 <a class="nav-link" href="{{ url('/') }}">{{ __('Home')}}<span class="sr-only">(current)</span></a>
               </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('course') }}">{{ __('Features')}}</a>
+                    <a class="nav-link" href="{{ url('feature') }}">{{ __('Features')}}</a>
                 </li>
                  <li class="nav-item">
                     <a class="nav-link" href="{{ route('course') }}">{{ __('Course')}}</a>

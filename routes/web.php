@@ -19,7 +19,7 @@ Route::get('/', function(){
 	return view('index');
 });
 
-Route::view('new', 'new');
+Route::view('feature', 'feature');
 
 Route::get('course', 'CursoController@index')->name('course');
 
