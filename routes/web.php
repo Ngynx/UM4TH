@@ -23,7 +23,7 @@ Route::view('feature', 'feature');
 
 Route::get('course', 'CursoController@index')->name('course');
 
-Route::get('/course/{id}', 'CursoController@show')->name('posts');
+Route::get('/course/{id}', 'CursoController@show');
 
 Auth::routes();
 
