@@ -19,10 +19,10 @@
                 
             <!-- Buttons -->
             <div class="text-center text-md-left">
-              <a href="" class="btn btn-dark btn-sm mr-2 my-2">
+              <a href="{{ route('login') }}" class="btn btn-dark btn-sm mr-2 my-2">
                 {{ __('Login')}}
               </a>
-              <a href="" class="btn btn-outline-dark btn-sm my-2">
+              <a href="{{ route('register') }}" class="btn btn-outline-dark btn-sm my-2">
                 {{ __('Register')}}
               </a>
             </div>

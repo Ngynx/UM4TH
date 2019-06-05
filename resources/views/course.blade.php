@@ -6,8 +6,8 @@
               <h1 class="jumbotron-heading">Lista de los temas que aprenderás</h1>
               <p class="lead text-muted">Escoge el tema que desees prácticar, recuerda estar logeado para para poder disfrutar al maximo todo lo que esta aplicación pueda ofrecerte.</p>
               <p>
-                <a href="#" class="btn btn-primary my-2">{{ __('Register')}}</a>
-                <a href="#" class="btn btn-secondary my-2">{{ __('Login')}}</a>
+                <a href="{{ route('login') }}" class="btn btn-primary my-2">{{ __('Register')}}</a>
+                <a href="{{ route('register') }}" class="btn btn-secondary my-2">{{ __('Login')}}</a>
               </p>
             </div>
         </section>
