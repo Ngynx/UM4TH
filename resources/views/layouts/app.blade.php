@@ -41,17 +41,12 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('course') }}">{{ __('Course')}}</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              {{ __('Acerca de...') }}
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="#">{{ __('Nosotros')}}</a>
-                              <a class="dropdown-item" href="#">{{ __('App')}}</a>
-                              <div class="dropdown-divider"></div>
-                              <a class="dropdown-item" href="#">Algo más :v</a>
-                            </div>
+                      
+                           <li class="nav-item">
+                            <a class="nav-link" href="{{ route('acercade') }}">{{ __('acerca de')}}<span class="sr-only">(current)</span></a>
                         </li>
+                            
+                        
                         <li class="nav-item">
                             <a class="nav-link disabled" href="#">{{ __('Coming soon')}}</a>
                         </li>

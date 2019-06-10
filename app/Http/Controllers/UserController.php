@@ -82,4 +82,12 @@ class UserController extends Controller
     {
         //
     }
+
+    /*acerca de*/
+    public function acerca()
+{
+    
+    return view('acercade');
+}
+
 }

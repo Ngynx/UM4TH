@@ -28,3 +28,5 @@ Route::get('/course/{id}', 'CursoController@show');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/acerca', 'UserController@acerca')->name('acercade');
