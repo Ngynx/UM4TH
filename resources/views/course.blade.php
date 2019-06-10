@@ -24,7 +24,7 @@
                     <div class="card mb-4 box-shadow">
                         <div class="course-content">
                             <a href="{{ action('CursoController@show', $course->id) }}">
-                                <img class="card-img-top" src="{{ asset('images/' .  $course->img) }}" alt="Aqui va una imagen">
+                                <img class="card-img-top" src="{{ $course->img }}" alt="Aqui va una imagen">
                             </a>
                         </div>
                         <div class="card-body">
@@ -33,7 +33,7 @@
                             <div class="btn-group">
                               <button type="button" class="btn btn-sm btn-outline-secondary">{{ __('View')}}</button>
                             </div>
-                            <small class="text-muted">{{ $course->attendant}}</small>
+                            <small class="text-muted">{{ $course->monitor->nombre}}</small>
                           </div>
                         </div>
                     </div>

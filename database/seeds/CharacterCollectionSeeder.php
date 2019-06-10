@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class CursoCollectionSeeder extends Seeder
+class CharacterCollectionSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,7 +11,7 @@ class CursoCollectionSeeder extends Seeder
      */
     public function run()
     {
-        factory(App\Curso::class, 6)->create();
+        factory(App\Character::class, 5)->create();
         //
     }
 }
